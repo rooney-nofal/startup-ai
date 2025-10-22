@@ -1,0 +1,36 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+*.code-workspace
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node/JS (if used later)
+node_modules/
+dist/
+build/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+
+# Env & secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Tests & coverage
+.coverage
+coverage/
+pytestcache/
+
+# Docker
+*.pid
+*.log
